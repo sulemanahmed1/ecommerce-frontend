@@ -10,9 +10,9 @@ import { ProductCategory } from '../common/product-category';
 })
 export class ProductService {
 
-  private baseUrl = 'http://localhost:8080/suleify-ecommerce-0.0.1-SNAPSHOT/api/products';
+  private baseUrl = 'http://localhost:8080/api/products';
 
-  private categoryUrl = 'http://localhost:8080/suleify-ecommerce-0.0.1-SNAPSHOT/api/product-category';
+  private categoryUrl = 'http://localhost:8080/api/product-category';
 
   constructor(private httpClient: HttpClient) { }
 
